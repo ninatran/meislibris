@@ -1,52 +1,69 @@
+html{
+  background-color: linen;
+}
 
 body{
-  background-color: #D6EAF8;
-  font-family: Helvetica,Arial,sans-serif;
+  font-family:Times,serif;
+  margin:10px 0px;
 }
 
 a {
   display: block;
 }
 
-.main{
-  background-color: white;
-  width: 700px;
-  margin: auto;
-}
-.main h1{
-  background-color: white;
-  text-align: center;
-  margin: 0px;
-  padding:15px;
+h1{
+  background-color: none;
+  text-align:center;
+  margin:0px;
+  font-size: 3em;
 }
 
-#cover-display{
-  padding: 25px 0px 25px 0px;
-  height:300px;
-  background-color:;
+.main{
+  background-color:ivory;
+  width:85%;
+  min-width: 587px;
+  max-width: 700px;
+  margin:auto;
+  padding:25px;
+  border-radius: 3px;
 }
-#active-cover{
-  display: block;
-  max-height: 300px;
-  margin: 0px auto;
-  border: solid 1px black;
+
+#heading{
+  color:black;
+  padding:150px;
+  border-top:solid black 1px;
+  border-bottom:solid black 1px;
+  margin: 10px 0px;
+}
+
+.contact a{
+  font-family: Helvetica, arial, sans-serif;
+  font-weight:lighter;
+  text-decoration: none;
+  text-align: right;
+  font-size: .8em;
 }
 
 #books{
   width: 100%;
-  max-width: 700px;
+  margin: 0px auto;
   text-align: left;
-  border: 1px solid DimGray;
+  border-bottom: 1px solid black;
   border-spacing: 0px
 }
 
-#books tr:hover{
-  background-color: Gainsboro;
+#books tr:hover:not(#table-heading){
+  background-color: antiquewhite;
 }
 
 th,td{
-  border: 1px solid gray;
   padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+th{
+  font-weight:bold;
+  border-bottom: 2px solid black;
 }
 
 nav a{
