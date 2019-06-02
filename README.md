@@ -1,2 +1,2 @@
 # meislibris.io
-A webpage of books I've read recently
+A webpage displaying books I've read recently
